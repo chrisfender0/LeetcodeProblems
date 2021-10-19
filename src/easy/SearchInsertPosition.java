@@ -7,14 +7,15 @@ public class SearchInsertPosition {
 	}
 
 	public static int searchInsert(int[] nums, int target) {
+		//binary search
 		int lowerBound = 0, higherBound = nums.length-1, mid;
 		while(lowerBound<=higherBound) {
 			mid = lowerBound + (higherBound-lowerBound)/2;
 			if(target==nums[mid]) return mid;
 			if(target < nums[mid]) {
-				higherBound = mid-1;
+				higherBound = mid-1; //reduce the higher bound 
 			} else {
-				lowerBound = mid+1;
+				lowerBound = mid+1; //increase the lower bound
 			}
 		}
 		return lowerBound;
