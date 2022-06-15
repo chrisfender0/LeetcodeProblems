@@ -1,10 +1,8 @@
 package merge_two_sorted_lists;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
 
-import linked_list_cycle.ListNode;
+import utility.ListNode;
 
 class MergeTwoSortedListsTest {
 

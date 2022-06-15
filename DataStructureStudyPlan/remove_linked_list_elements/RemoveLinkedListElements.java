@@ -1,6 +1,6 @@
 package remove_linked_list_elements;
 
-import linked_list_cycle.ListNode;
+import utility.ListNode;
 
 /**
  * https://leetcode.com/problems/remove-linked-list-elements/

@@ -1,5 +1,7 @@
 package linked_list_cycle;
 
+import utility.ListNode;
+
 /**
  * https://leetcode.com/problems/linked-list-cycle/
  */

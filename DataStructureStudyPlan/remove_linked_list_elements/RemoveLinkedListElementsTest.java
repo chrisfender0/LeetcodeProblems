@@ -1,10 +1,8 @@
 package remove_linked_list_elements;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 
-import linked_list_cycle.ListNode;
+import utility.ListNode;
 
 class RemoveLinkedListElementsTest {
 
